@@ -28,7 +28,7 @@ while (true)
     }
 
     int cows = 0;
-    int bulls = 0;
+    int bulls = 4;
 
 
 for (int i = 0; i < secretNumber; i++)
@@ -43,11 +43,11 @@ for (int i = 0; i < secretNumber; i++)
         }
     }
 
-    Console.WriteLine($"Cows: {cows}, Bulls: {bulls}");
+    Console.WriteLine("Cows: " + cows, Bulls: " + bulls);
     attempts++;
 }
 
-Console.WriteLine($"You guessed the number in {attempts} attempts.");
+Console.WriteLine("You guessed the number in " + attempts + " attempts.");
 
         }
     }
